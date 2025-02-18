@@ -50,8 +50,8 @@ exports.handler = async (event) => {
     // Discord に送るメッセージ
     const message = 
       `**AWS推定請求額 (当月累積)**\n` +
-      `・EstimatedCharges: \n`
-      `    $${estimatedCharges.toFixed(2)}\n` +
+      `・EstimatedCharges: \n` +
+      `    $${estimatedCharges.toFixed(2)}\n`
 
     // Discord Webhook へ送信
     await axios.post(discordWebhookUrl, {
