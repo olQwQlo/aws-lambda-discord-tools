@@ -1,0 +1,13 @@
+{
+    "name": "billing-notification",
+    "version": "1.0.0",
+    "description": "Self-contained AWS Lambda for billing notifications via Discord.",
+    "main": "src/index.js",
+    "scripts": {
+        "deploy": "echo Deploy script placeholder"
+    },
+    "dependencies": {
+        "@aws-sdk/client-cloudwatch": "^3.750.0",
+        "axios": "^1.3.4"
+    }
+}
